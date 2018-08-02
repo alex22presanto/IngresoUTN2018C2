@@ -9,5 +9,19 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
+    var edad=parseInt(prompt("Ingrese su edad"));
+    var sexo;
+    var estadoc;
+    var sueldob;
+    var legajo;
+    var nacionalidad;
+    while(edad<18 ||  edad>90){
+        edad=parseInt(prompt("A ingresado una edad incorrecta, ingrese nuevamente su edad"));
+    }
+    sexo = prompt("ingrese su sexo (M o F)")
+    while(sexo != "F" && sexo != "M"){
+        sexo = prompt("a ingresadingrese su sexo nuevamente (M o F)")
+    }
+
  
 }
