@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536021114 source:d:\presanto\trabajo 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"funciones.h"
+
+1536019265 source:d:\presanto\trabajo 1\funciones.c
+
+1536015730 d:\presanto\trabajo 1\funciones.h
+
